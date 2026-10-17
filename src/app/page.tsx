@@ -24,7 +24,7 @@ export default function HomePage() {
     <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 py-10">
       <header className="flex items-center justify-between gap-3">
         <p className="text-sm font-medium tracking-wide">Signalboard</p>
-        <Button render={<Link href="/login" />}>Sign in</Button>
+        <Button nativeButton={false} render={<Link href="/login" />}>Sign in</Button>
       </header>
       <main className="mt-16 grid gap-10">
         <div className="max-w-2xl">
@@ -37,8 +37,8 @@ export default function HomePage() {
             organisations, and read charts that are labeled as sample data.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <Button render={<Link href="/login" />}>Open the demo</Button>
-            <Button variant="outline" render={<Link href="/login" />}>
+            <Button nativeButton={false} render={<Link href="/login" />}>Open the demo</Button>
+            <Button nativeButton={false} variant="outline" render={<Link href="/login" />}>
               View demo accounts
             </Button>
           </div>
