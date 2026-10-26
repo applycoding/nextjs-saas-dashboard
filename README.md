@@ -73,7 +73,7 @@ npm run typecheck
 npm run build
 ```
 
-GitHub Actions (`.github/workflows/ci.yml`) runs lint, typecheck, test, and build. This repository is hosted on Cursor Origin for now, so Actions will not run until the project is on GitHub.
+GitHub Actions (`.github/workflows/ci.yml`) runs lint, typecheck, test, and build.
 
 ## License
 
